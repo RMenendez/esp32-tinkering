@@ -1,0 +1,1 @@
+# Hardware details and pinouts
