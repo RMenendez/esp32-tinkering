@@ -59,26 +59,26 @@ The servos usually have 3 wires ended in a standard three pin connector
 
 See diagram_wiring_servo_sg90.jpg
 
-| ESP32-C3 | Servo          |
-|----------|----------------|-----------
-| GPIO0    | Control        |
-| GND      | GND            | Common Ground
-|          | VCC            | External +5V power dedicated to servo
-|          |                |
-| Power    |                | For tests, from USB (independent of motor power)
+| ESP32-C3 | Servo          | Comments |
+| -------- | -------------- | ---------- |
+| GPIO0    | Control        |            |
+| GND      | GND            | Common Ground |
+|          | VCC            | External +5V power dedicated to servo |
+|          |                |             |
+| Power    |                | For tests, from USB (independent of motor power) |
 
 
 For the potentiometer version see diagram_wiring_servo_sg90_pot.jpg
 In this case we use pin GPIO1 to read the voltage value from the potentiometer.
 
-| ESP32-C3 | Servo     | Potentiometer |
-|----------|-----------|               |-----------
-| GPIO0    | Control   |               |
-| GPIO1    |           | Common        |
-| GND      | GND       | GND           | Common Ground
-|          | VCC       | VCC           | External +5V power dedicated to servo
-|          |           |               |
-| Power    |           |               | For tests, from USB (independent of motor power)
+| ESP32-C3 | Servo     | Potentiometer | Comments  |
+| -------- | --------- | ------------- | ---------- |
+| GPIO0    | Control   |               |  |
+| GPIO1    |           | Common        |  |
+| GND      | GND       | GND           | Common Ground |
+|          | VCC       | VCC           | External +5V power dedicated to servo |
+|          |           |               |  |
+| Power    |           |               | For tests, from USB (independent of motor power) |
 
 
 

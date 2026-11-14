@@ -27,13 +27,13 @@ Learn how to:
 
 See diagram_wiring_stepper_28BYJ.jpg
 
-| ESP32-C3 | UNL2003        | MOTORS
-|----------|----------------|-----------
-| GPIO4    | IN1            |
-| GPIO5    | IN2            |
-| GPIO6    | IN3            |
-| GPIO7    | IN4            |
-|          | Out connector  | Motor connector
+| ESP32-C3 | UNL2003        | MOTORS     | 
+|----------|----------------|----------- |
+| GPIO4    | IN1            |            |            
+| GPIO5    | IN2            |            |
+| GPIO6    | IN3            |            |
+| GPIO7    | IN4            |            |
+|          | Out connector  | Motor connector |
 
 
 ## Arduino IDE
