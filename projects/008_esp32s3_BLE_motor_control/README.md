@@ -24,16 +24,16 @@ Learn how to:
 
 See diagram_wiring_two_motors_ESP32_S3.jpg
 
-| ESP32-C3 | DRV8833 | MOTORS
-|----------|---------|-----------
-| GPIO4    | IN4     |
-| GPIO5    | IN3     |
-| GPIO6    | IN2     |
-| GPIO7    | IN1     |
-|          | OUT1    |  m1 +
-|          | OUT2    |  m1 -
-|          | OUT3    |  m2 +
-|          | OUT4    |  m2 -
+| ESP32-C3 | DRV8833 | MOTORS     |
+|----------|---------|----------- |
+| GPIO4    | IN4     |            |
+| GPIO5    | IN3     |            |
+| GPIO6    | IN2     |            |
+| GPIO7    | IN1     |            |
+|          | OUT1    |  m1 +      |
+|          | OUT2    |  m1 -      |
+|          | OUT3    |  m2 +      |
+|          | OUT4    |  m2 -      |
 
 
 
